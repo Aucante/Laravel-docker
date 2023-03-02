@@ -34,7 +34,6 @@ services:
     restart: always
     networks:
       - dev
-
   www:
     build: php
     container_name: www_docker_symfony
